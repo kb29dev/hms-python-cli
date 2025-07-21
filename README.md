@@ -38,7 +38,7 @@ HOW TO RUN
 ------------------------------------------------------------
 REQUIRED MODIFICATIONS
 ------------------------------------------------------------
-- Update CONSULTATION_FEE constant in main.py to change the base consultation charge.
+- Update CONSULTATION_FEE constant in Blake.Kobe-HMS_Program-ITT103-SP2025.py to change the base consultation charge.
 - Modify the hospital name and address in the generate_bill() method header.
 - Adjust input prompts or date/time parsing to enforce stricter formats (e.g., use datetime.strptime()).
 - Integrate persistent storage (SQLite, JSON, etc.) by replacing in-memory dictionaries.
